@@ -1,0 +1,12 @@
+#header_one{
+    min-height: 75px;
+    background-color: blue;
+}
+
+@media only screen and (min-width: 600px) {
+    #header_one{
+    min-height: 75px;
+    background-color: orange;
+
+}
+}
