@@ -1,12 +1,24 @@
 #header_one{
     min-height: 75px;
     background-color: blue;
+    width: 100%;
 }
 
+/* Tablet rules go after mobile */
 @media only screen and (min-width: 600px) {
     #header_one{
     min-height: 75px;
     background-color: orange;
 
 }
+}
+
+/* Desktop rules go after tablet rules   */
+
+@media only screen and (min-width: 1000px) {
+    #header_one{
+            min-height: 75px;
+            background-color: purple;
+
+    }
 }
